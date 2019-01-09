@@ -34,7 +34,7 @@ for char in word:
     else:
         print('_', end=" ")
 
-
+print('Game over!')
 
 
 
