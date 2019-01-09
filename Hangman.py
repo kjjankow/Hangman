@@ -9,4 +9,32 @@ wordList = ["apple", "banana", "grape", "pineapple", "blueberry", "raspberry"]
 
 word = random.choice(wordList)
 
-print(word)
+print(word)  # Check to see set up is working
+
+print('Guess the fruit word!')
+
+for i in word:
+    print('_', end = " ")
+print()                     # Adds extra line break
+
+lettersGuessed = ''
+chances = len(word)+2
+correct = 0
+
+guess = str(input('Enter a letter to guess'))
+print()
+
+if guess in word:
+    lettersGuessed += guess
+
+for char in word:
+    if char in lettersGuessed:
+        print(char, end=" ")
+        correct += 1
+    else:
+        print('_', end=" ")
+
+
+
+
+
