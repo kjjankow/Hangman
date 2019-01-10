@@ -6,6 +6,9 @@ but attempting to customize based on my own knowledge. Also looking to add graph
 As of 20190109:
 - Developed initial game start and guessing interface.
 
+As of 20190110:
+- Added comments for explanation
+
 Plans for next rev:
 - Some error checking on guess attempts (must be 1 letter, not a number, etc)
 
